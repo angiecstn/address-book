@@ -12,7 +12,7 @@ if (contacts) {
         li.innerHTML = `
           <div class="card">
             <div class="image">
-              <img src="https://www.coburgbanks.co.uk/wp-content/uploads/2015/08/linkedin-no-profile-picture-300x333.jpg" />
+              <img src="https://www.coburgbanks.co.uk/wp-content/uploads/2015/08/linkedin-no-profile-picture-300x333.jpg" align-content: center;/>
             </div>
             <div class="content">
               <h1>${ contact.name }</h1>
@@ -36,7 +36,7 @@ const renderForm = () => {
     let main = document.querySelector('.main')
     let wrapper = document.createElement('div')
     wrapper.innerHTML = `
-        <h3>New Contact Form</h3>
+        <h3>New Contact Form</h3> </br> 
         <form class="new-contact-form mb-6" action="#">
         <div class="flex flex-col mb-4" 
                 <label class="mb-2 uppercase font-bold text-lg text-grey-darkest" for="name">Name</label>
